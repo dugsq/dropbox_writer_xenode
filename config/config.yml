@@ -1,0 +1,7 @@
+---
+enabled: false
+loop_delay: 5
+debug: false
+dropbox_path: ""
+named_file: ""
+access_token: ""
