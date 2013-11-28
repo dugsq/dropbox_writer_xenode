@@ -1,10 +1,10 @@
-dropbox-writer-xenode
+Dropbox Writer Xenode
 =====================
 
 **Dropbox Writer Xenode** reads its input data context and writes the associated file to a named file in a specified Dropbox folder. It leverages the "dropbox-sdk" RubyGem to perform the file write operation. The Xenode will read the file from a local temporary folder based on the path and file information specified in the message context that it receives. If message context is not found, it is expected that the file content will be available within the message data and it will be used to write to the named file in the specified Dropbox folder.  
 
 ###Configuration file options:
-* loop_delay: defines number of seconds the Xenode waits before running process(). Expects a float. 
+* loop_delay: defines number of seconds the Xenode waits before running the Xenode process. Expects a float. 
 * enabled: determines if this Xenode process is allowed to run. Expects true/false.
 * debug: enables extra debug messages in the log file. Expects true/false.
 * dropbox_path: specifies the dropbox folder where the file is expected to be written. Expects a string.   
