@@ -1,6 +1,8 @@
 Dropbox Writer Xenode
 =====================
 
+Note: you will need the Xenograte Community Toolkit (XCT) to run this Xenode. Refer to the XCT repo [https://github.com/Nodally/xenograte-xct](https://github.com/Nodally/xenograte-xct) for more information.
+
 **Dropbox Writer Xenode** reads its input data context and writes the associated file to a named file in a specified Dropbox folder. It leverages the "dropbox-sdk" RubyGem to perform the file write operation. The Xenode will read the file from a local temporary folder based on the path and file information specified in the message context that it receives. If message context is not found, it is expected that the file content will be available within the message data and it will be used to write to the named file in the specified Dropbox folder.  
 
 ###Configuration file options:
